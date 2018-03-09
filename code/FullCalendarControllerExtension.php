@@ -28,10 +28,9 @@ class FullCalendarControllerExtension extends Extension {
   public function full() {
 
     Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
-    Requirements::javascript('fullcalendar/thirdparty/fullcalendar-2.3.1/lib/moment.min.js');
-    Requirements::javascript('fullcalendar/thirdparty/fullcalendar-2.3.1/fullcalendar.min.js');
-    Requirements::javascript('fullcalendar/javascript/FullCalendar.js');
-    Requirements::css('fullcalendar/thirdparty/fullcalendar-2.3.1/fullcalendar.min.css');
+    Requirements::javascript('fullcalendar/thirdparty/fullcalendar-3.9.0/lib/moment.min.js');
+    Requirements::javascript('fullcalendar/thirdparty/fullcalendar-3.9.0/fullcalendar.min.js');
+    Requirements::css('fullcalendar/thirdparty/fullcalendar-3.9.0/fullcalendar.min.css');
 
     $basicAgenda = 'agenda';
 
